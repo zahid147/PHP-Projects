@@ -42,10 +42,3 @@ You can run these directly:
 * PHP 7.x or 8.x
 * (For `final_project`) MySQL / MariaDB
 * Web browser
-
-## 📝 License
-
-This repository is open source and available under the MIT License.
-
-```
-```
