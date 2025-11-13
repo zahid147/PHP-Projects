@@ -1,6 +1,3 @@
-````markdown
-# PHP Projects
-
 A collection of simple PHP projects by [@zahid147](https://github.com/zahid147).
 
 ## 📁 Projects
@@ -12,10 +9,11 @@ A collection of simple PHP projects by [@zahid147](https://github.com/zahid147).
 
 ### 🟢 simpleWeb & simpleContact
 You can run these directly:
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/zahid147/PHP-Projects.git
-````
+   ```
 
 2. Open the project folder (`simpleWeb` or `simpleContact`) in your browser through your local server (or use a PHP built-in server):
 
@@ -42,3 +40,4 @@ You can run these directly:
 * PHP 7.x or 8.x
 * (For `final_project`) MySQL / MariaDB
 * Web browser
+
