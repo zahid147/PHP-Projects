@@ -1,0 +1,19 @@
+CREATE DATABASE IF NOT EXISTS project_db;
+USE project_db;
+
+CREATE TABLE users (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(100) NOT NULL,
+  email VARCHAR(100) NOT NULL UNIQUE,
+  password VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE contacts (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  user_id INT NOT NULL,
+  name VARCHAR(100),
+  phone VARCHAR(20),
+  email VARCHAR(100),
+  note TEXT,
+  FOREIGN KEY (user_id) REFERENCES users(id)
+);
